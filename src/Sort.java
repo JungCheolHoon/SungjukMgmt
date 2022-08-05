@@ -1,4 +1,4 @@
-//public는 기본값인가? 메소드 private 는 아무대도모쓰나
+
 public class Sort {
 	private Student [] array;
 	private int count;
