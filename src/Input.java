@@ -13,7 +13,6 @@ public class Input {
 		int count = 0;
 		do {
 			count++;
-			Student student = new Student();
 			System.out.print("Hakbun : ");		String Hakbun = this.sc.nextLine();
 			System.out.print("Name : ");		String name = this.sc.nextLine();
 			System.out.print("Korean : ");		int kor = this.sc.nextInt();
@@ -22,10 +21,10 @@ public class Input {
 			System.out.print("EDPS : ");		int edp = this.sc.nextInt();
 			this.sc.nextLine();
 			
-			this.array[count-1] = new Student(Hakbun, name, kor, eng, math, edp);
 			
+			this.array[count-1] = new Student(Hakbun, name, kor, eng, math, edp);
 			System.out.print("계속(I/O) ? : ");
-			io = this.sc.next();
+			io = this.sc.nextLine();
 			
 		}while( io.equals("I") || io.equals("i") );
 		
