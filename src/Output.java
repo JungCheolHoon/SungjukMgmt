@@ -1,4 +1,4 @@
-//private는 같은 클래스내에서 사용이 자유로운가, 주소는 왜 안넘어가지
+
 public class Output {
 	public void print(Student [] array, int count){
 		for(int i = 0 ; i <count ; i++) {
