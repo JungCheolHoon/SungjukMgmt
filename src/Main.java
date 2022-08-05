@@ -1,6 +1,7 @@
-//private는 같은 클래스내에서 사용이 자유로운가, 주소는 왜 안넘어가지
+
 public class Main {
 	public static void main(String[] args) {
+			System.out.println("성적관리프로그램 시작");
 			Student [] array = new Student[100];
 			Input input = new Input(array);
 			int count = input.input();
@@ -13,6 +14,7 @@ public class Main {
 			
 			Output output = new Output();
 			output.print(array, count);
+			System.out.println("성적관리프로그램 종료");
 			
 	}
 }
